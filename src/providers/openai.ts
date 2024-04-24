@@ -336,6 +336,7 @@ export class OpenAiChatCompletionProvider extends OpenAiGenericProvider {
       'gpt-4-0125-preview',
       'gpt-4-turbo-preview',
       'gpt-4-turbo',
+      'gpt-4-turbo-2024-04-09',
     ].map((model) => ({
       id: model,
       cost: {
